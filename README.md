@@ -33,21 +33,7 @@ photoreceptor quantification.
 
 ## Abstract
 
-Automated cone photoreceptor quantification in adaptive optics scanning light
-ophthalmoscopy (AOSLO) is often evaluated through global counting accuracy.
-However, an accurate scalar count does not necessarily imply that the predicted
-cone mosaic is spatially correct. We study AOSLO cone quantification as a
-structured prediction problem by comparing three output formulations derived
-from the same centroid-level annotations: density estimation, semantic
-segmentation, and object detection. All newly implemented models are evaluated
-under a common train--validation--test split and repeated independent runs.
-Counting performance is assessed using mean absolute error, while mask-overlap
-metrics are reported for segmentation models. The results show that the choice
-of output representation affects both counting accuracy and spatial evidence,
-with CNN-based semantic segmentation providing the most favorable trade-off in
-the evaluated setting. These findings support evaluating AOSLO cone
-quantification beyond scalar counting alone and highlight the value of
-spatially explicit formulations for cellular-level retinal image analysis.
+Automated cone photoreceptor quantification in adaptive optics scanning light ophthalmoscopy (AOSLO) is often evaluated through global counting accuracy. However, an accurate scalar count does not necessarily imply that the predicted cone mosaic is spatially correct. We study AOSLO cone quantification as a structured prediction problem by comparing three output formulations derived from the same centroid-level annotations: density estimation, semantic segmentation, and object detection. All newly implemented models are evaluated under a common train--validation--test split and repeated independent runs. Counting performance is assessed using mean absolute error, while mask-overlap metrics are reported for segmentation models. The results show that the choice of output representation affects both counting accuracy and spatial evidence, with CNN-based semantic segmentation providing the most favorable trade-off in the evaluated setting. These findings support evaluating AOSLO cone quantification beyond scalar counting alone and highlight the value of spatially explicit formulations for cellular-level retinal image analysis.
 
 ---
 
