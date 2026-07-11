@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Dataset files are not redistributed
+data/images/
+data/annotations/
+data/raw/
+data/processed/
+
+# Model checkpoints and weights
+models/
+checkpoints/
+*.h5
+*.keras
+*.ckpt
+*.weights.h5
+
+# Training outputs
+logs/
+runs/
+wandb/
+tensorboard/
+outputs/
+predictions/
+
+# Large arrays and intermediate files
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Keep paper figures
+!figures/
+!figures/*.png
