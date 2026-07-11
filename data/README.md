@@ -9,6 +9,7 @@ to the terms described in that paper.
 
 After obtaining the dataset, organize it locally as:
 
+```text
 data/
 ├── images/
 ├── annotations/
