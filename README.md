@@ -84,6 +84,13 @@ repository.
 
 ---
 
+## License
+
+This code is released under the Apache License 2.0.
+
+The AOSLO dataset is not redistributed in this repository and remains subject
+to the access and usage terms of the original CoDE/ADAM dataset source.
+
 ## Repository structure
 
 ```text
@@ -92,3 +99,5 @@ AOSLO_Cone_Counting/
 ├── figures/        # Figures used in the paper
 ├── results/        # Summary CSV files for paper tables
 └── data/           # Dataset instructions only
+
+
